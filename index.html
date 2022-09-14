@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="estilo/estilo.css" />
+    <title>Document</title>
+</head>
+
+<body>
+    <form action=" formulario" id=" form">
+        <div id="container">
+            <header>
+                <h1>DIVISAS</h1>
+                <div id ="principal" class="container contenido-principal">
+        <div id="" class="row justify-content-center">
+                <img src="img/divisas-populares.jpg" alt="Divisas " />
+
+               
+            </header>
+            <div class="container text-center py-3 col-md-8">
+            <div name="cantidadD" id="cantidadDinero" class="Cantidadinero">
+                <input  class="form-control text-center "type="text" name="dinero" id="dinero" placeholder="Cantidad de dinero" autocomplete=" off" />
+            </div>
+            <div>
+                <select name=" first-money" class="monedaI" id="monedaI"></select>
+                <select name="second_money" class="monedaF" id="monedaF"></select>
+               
+                <button id="convertir"    class="btn btn-success"><b>CONVERTIR</b></button>
+                <div class="resultado" id="resultado ">
+                <div class="container text-center py-3 col-md-8">
+
+                    <input type="text" name="resultado" id="resultado" placeholder="Resultado " autocomplete=" off" />
+                </div>
+            </div>
+            <div  class="mensajes" id="alerta" ></div>
+        </div>
+    </form>
+    <script src="script/main.js"></script>
+</body>
+
+</html>
